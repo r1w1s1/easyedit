@@ -1,0 +1,25 @@
+# Example init.ee for ee (easy editor)
+
+# Minimal fullscreen editing
+noinfo
+nohighlight
+
+# Preserve TAB characters
+noexpand
+
+# Formatting behavior
+margins
+rightmargin 72
+noautoformat
+
+# Search behavior
+nocase
+
+# UTF-8 / terminal-friendly
+eightbit
+
+# Traditional ee bindings
+noemacs
+
+# Printing
+printcommand lpr

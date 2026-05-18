@@ -1,0 +1,18 @@
+ee example configuration files
+==============================
+
+This directory contains example configuration files for ee
+(easy editor).
+
+ee reads initialization files in the following order:
+
+    /usr/share/misc/init.ee
+    $HOME/.init.ee
+    ./.init.ee
+
+To use the example configuration:
+
+    cp init.ee ~/.init.ee
+
+The example configuration enables a more minimal editing
+environment suitable for modern terminal emulators.
